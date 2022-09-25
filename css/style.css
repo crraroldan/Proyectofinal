@@ -1,0 +1,165 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+     
+    display: flex;
+    flex-direction: row; 
+
+}
+
+.CajonPrincipal {
+
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 201, 0);
+    
+}
+
+
+.showcase {
+
+    width: 59em; 
+    height: 100vh;  
+    display: grid;  
+    place-items: center;   
+     flex-direction: row;   
+     justify-content: center;  
+     align-items: center;   
+    background-color: crimson;  
+  
+    
+}
+
+.CajonShowcase {
+
+    height: 11em;
+    width: 58em;
+    background-color: dodgerblue; 
+    display: flex; 
+    flex-direction: row;  
+    justify-content: center; 
+    align-items: center;  
+     
+
+    
+
+
+} 
+
+/* ----------------------------------------------------------------------- */
+
+
+.Pelicula{
+
+    width: 14em;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+
+
+
+}
+
+.imagenPelicula {
+
+    height: 10em;
+    border: 0.2em solid rgb(0, 0, 0);
+
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+.Cesta {
+
+    width: 40em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CajonCesta {
+
+    height: 20em;
+    width: 15em;
+    background-color: rgb(33, 0, 99); 
+
+}
+
+.CestaActual {
+
+    height: 17em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(215, 183, 0);  
+
+}
+
+.totalPrice {
+
+    height: 3em;
+    font-size:2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 0, 215); 
+
+}
+
+
+.totalnumero {
+
+    height: 3em;
+    font-size:2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 24, 1); 
+
+}
+
+
+.Nuevo{
+
+    
+    height: 3em;
+    font-size:2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(32, 0, 129);
+}
+
+
+
+
+/* este sirve para la imagen de la cesta */
+.pictures {
+
+    height: 10em;
+
+}
+
+/* ----------------------------------------------------------- */
+
+
+#alerta{
+    margin-top:1 0px;
+    display: none;
+    
+}
+
+#alerta p{
+    color: rgb(84, 0, 0);
+}
+
