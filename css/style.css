@@ -44,11 +44,31 @@ body {
     justify-content: center; 
     align-items: center;  
      
-
+    line-height: 5px;
     
 
 
 } 
+
+
+
+.CajonShowcaseinformacion{
+
+
+    height: 10em;
+    width: 40em;
+    background-color: rgb(0, 135, 148); 
+    display: flex; 
+    flex-direction: row;  
+    justify-content: center; 
+    align-items: center;  
+    border-radius: 1em;
+    line-height: 10px; 
+
+
+
+
+}
 
 /* ----------------------------------------------------------------------- */
 
@@ -90,7 +110,7 @@ body {
 
     height: 20em;
     width: 15em;
-    background-color: rgb(33, 0, 99); 
+    background-color: rgba(33, 0, 99, 0); 
 
 }
 
@@ -100,30 +120,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-     background-color: rgb(215, 183, 0);  
+     background-color: rgba(215, 183, 0, 0);  
 
 }
 
 .totalPrice {
 
-    height: 3em;
+    height: 2em;
     font-size:2em;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(11, 0, 215); 
 
+    border-radius: 1em;
+
 }
 
 
 .totalnumero {
 
-    height: 3em;
+    height: 2em;
     font-size:2em;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(198, 24, 1); 
+
+    border-radius: 1em;
 
 }
 
@@ -131,7 +155,7 @@ body {
 .Nuevo{
 
     
-    height: 3em;
+    height: 2em;
     font-size:2em;
     display: flex;
     justify-content: center;
@@ -163,3 +187,59 @@ body {
     color: rgb(84, 0, 0);
 }
 
+
+.boton {
+    height: 2em;
+    width: 15em;
+
+    background-color: rgb(255, 4, 4);
+
+    color: white;
+    font-weight: bold;
+
+     border-radius: 1em; 
+
+    transition: 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+    cursor: pointer;
+}
+
+.boton:hover {
+
+    transition: 0.3s;
+
+    background-color: rgb(77, 16, 16);
+}
+
+.boton2 {
+    height: 2em;
+    width: 15em;
+
+    background-color: rgb(255, 0, 0);
+
+    color: white;
+    font-weight: bold;
+
+  border-radius: 1em; 
+
+    transition: 0.3s;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    cursor: pointer;
+}
+
+.boton2:hover {
+
+    transition: 0.3s;
+
+    background-color: rgb(77, 16, 16);
+}
