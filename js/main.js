@@ -177,21 +177,22 @@ const drop = (ev) => {
 
 
 let variableGlobal = 0;
+
 let carrito = document.getElementById("totalCarrito");
 
 const vaciar = () => {
-    variableGlobal = 0;
+    precioTotal = 0;
 
-    carrito.innerHTML = `${variableGlobal}`;
+    carrito.innerHTML = `${precioTotal}`;
 }
 
 
 let muchos = document.getElementById("totalpeliculas");
 
 const vaciar2 = () => {
-     variableGlobal = 0;
+    Cantida = 0;
 
-   muchos.innerHTML = `${variableGlobal}`;
+   muchos.innerHTML = `${Cantida}`;
 }
 
 
