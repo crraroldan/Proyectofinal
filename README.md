@@ -23,11 +23,14 @@ En el proceso del proyecto aparecieron diversos bugs, debido a la falta de conex
 Para un futuro tengo planeado añadir mas películas y mas información en las películas.
 
 
-
+Imagen de la interfaz donde se ven las 21 películas.
 ![Captura1](./img/Captura1.PNG)
 
+Imagen de la información de la película seleccionada.
 ![Captura1](./img/Captura2.PNG)
 
+Imagen de la cesta donde se arrastra los objetos, y debajo los cuatro elementos.
 ![Captura1](./img/Captura3.PNG)
 
+Imagen de la interfaz.
 ![Captura1](./img/Captura4.PNG)
