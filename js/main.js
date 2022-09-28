@@ -1,19 +1,15 @@
+// Esto es para el precio
 let totalCarrito = document.getElementById("totalCarrito");
 let precioTotal = 0;
 
 totalCarrito.innerHTML = `${precioTotal} €`;
 
-
-
-
+// Esto es para la cantidad
 let totalpeliculas = document.getElementById("totalpeliculas");
 let Cantida = 0;
 
 totalpeliculas.innerHTML = `${Cantida}  uds`;
 
-
-
-//Declaramos el objeto
 
 let objetos = [
     {
@@ -88,7 +84,6 @@ let objetos = [
         Cantida: 1
     },
 
-
     {
         id: "300",
         precio: 8,
@@ -125,58 +120,40 @@ let objetos = [
         Cantida: 1
     }
 
-
 ];
 
 
-
 const drag = (ev) => {
-    ev.dataTransfer.setData("text", ev.target.id);
 
-    // console.log("arrastrando...", ev.target.id);
+    ev.dataTransfer.setData("text", ev.target.id);
 };
 
 const allowDrop = (ev) => {
+
     ev.preventDefault();
 };
 
 const drop = (ev) => {
+
     ev.preventDefault();
     let data = ev.dataTransfer.getData("text");
-    // ev.target.appendChild(document.getElementById(data));
     
     let objetoDeseo = objetos.find(objeto => {
         return objeto.id == data
     });
 
-
     precioTotal += objetoDeseo.precio;
-    
     totalCarrito.innerHTML = `${precioTotal} €`;
-  //    -------------------------------------------------------------------
+ 
 
     let objetocantidad = objetos.find(objeto => {
         return objeto.id == data
     });
 
-    
     Cantida += objetocantidad.Cantida;
-    
     totalpeliculas.innerHTML = `${Cantida} uds`;
 
-
-
 }; 
-
-
-
-
-
-
-
-
-
-let variableGlobal = 0;
 
 let carrito = document.getElementById("totalCarrito");
 
@@ -185,7 +162,6 @@ const vaciar = () => {
 
     carrito.innerHTML = `${precioTotal}`;
 }
-
 
 let muchos = document.getElementById("totalpeliculas");
 

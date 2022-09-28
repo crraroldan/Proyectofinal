@@ -42,7 +42,6 @@ function mostrar4() {
 
 }
 
-
 window.addEventListener("load",mostrar5);
 function mostrar5() {
   var x = document.getElementById('El señor de los anilos Las dos torres');
@@ -53,8 +52,6 @@ function mostrar5() {
   }
 
 }
-
-
 
 window.addEventListener("load",mostrar6);
 function mostrar6() {
@@ -67,8 +64,6 @@ function mostrar6() {
 
 }
 
-
-
 window.addEventListener("load",mostrar7);
 function mostrar7() {
   var x = document.getElementById('Apocalypse Now');
@@ -79,7 +74,6 @@ function mostrar7() {
   }
 
 }
-
 
 window.addEventListener("load",mostrar8);
 function mostrar8() {
@@ -92,7 +86,6 @@ function mostrar8() {
 
 }
 
-
 window.addEventListener("load",mostrar9);
 function mostrar9() {
   var x = document.getElementById('Robocop 2');
@@ -104,8 +97,6 @@ function mostrar9() {
 
 }
 
-
-
 window.addEventListener("load",mostrar10);
 function mostrar10() {
   var x = document.getElementById('Robocop 3');
@@ -116,8 +107,6 @@ function mostrar10() {
   }
 
 }
-
-
 
 window.addEventListener("load",mostrar11);
 function mostrar11() {
@@ -228,7 +217,6 @@ function mostrar20() {
   }
 
 }
-
 
 window.addEventListener("load",mostrar21);
 function mostrar21() {
